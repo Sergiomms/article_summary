@@ -1,0 +1,36 @@
+.text-container {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+  line-height: 1.6;
+  text-align: left; /* Alinhamento à esquerda */
+}
+
+header h1 {
+  color: #333;
+}
+
+section h2 {
+  color: #47d4df;
+  margin-top: 60px; /* Espaçamento grande entre o resumo e o próximo título */
+}
+
+section p {
+  margin: 10px 0;
+}
+
+.summary {
+  margin-bottom: 300px; /* Espaçamento grande entre o resumo e o próximo título */
+}
+
+strong {
+  color: #000;
+}
+
+.footer {
+  margin-top: 50px;
+  font-size: 0.8em;
+  color: #999;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
