@@ -258,66 +258,6 @@ results for blinatumomab in children as well as all ongoing clinical trials.
 Material científico e não promocional, destinado à atualização científica, com base em dados científicos e equilibrados
 disponíveis na literatura. Esse material não apresenta nenhuma intenção comercial.`
     },
-    // {
-    //   id: 9,
-    //   title: ``,
-    //   resume: ``
-    // },
-    // {
-    //   id: 10,
-    //   title: ``,
-    //   resume: ``
-    // },
-    // {
-    //   id: 11,
-    //   title: ``,
-    //   resume: ``
-    // },
-    // {
-    //   id: 4,
-    //   title: ``,
-    //   resume: ``
-    // },
-    // {
-    //   id: 4,
-    //   title: ``,
-    //   resume: ``
-    // },
-    // {
-    //   id: 4,
-    //   title: ``,
-    //   resume: ``
-    // },
-    // {
-    //   id: 4,
-    //   title: ``,
-    //   resume: ``
-    // },
-    // {
-    //   id: 4,
-    //   title: ``,
-    //   resume: ``
-    // },
-    // {
-    //   id: 4,
-    //   title: ``,
-    //   resume: ``
-    // },
-    // {
-    //   id: 4,
-    //   title: ``,
-    //   resume: ``
-    // },
-    // {
-    //   id: 4,
-    //   title: ``,
-    //   resume: ``
-    // },
-    // {
-    //   id: 4,
-    //   title: ``,
-    //   resume: ``
-    // },
   ];
 
   // Array de referências para os textos
@@ -343,6 +283,7 @@ disponíveis na literatura. Esse material não apresenta nenhuma intenção come
           <section
             key={index}
             ref={el => textRefs.current[index] = el}
+            className="text-item"
           >
             <h2>{item.id}{item.title}</h2>
             <p className="summary">
