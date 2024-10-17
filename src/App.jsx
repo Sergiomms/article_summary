@@ -57,6 +57,7 @@ function App() {
 
   return (
     <div>
+      <div className='text'>* Type below the number of the article you want to read the summary of *</div>
       <input
         type="text"
         className="search-input"
