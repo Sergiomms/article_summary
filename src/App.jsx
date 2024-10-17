@@ -29,10 +29,6 @@ function App() {
     setShowKeypad(true);
   };
 
-  const handleClosePage = () => {
-    window.close();
-  };
-
   return (
     <div>
       <input
@@ -69,11 +65,6 @@ function App() {
           </div>
         </div>
       )}
-
-      {/* Fixed button to close the page */}
-      <button className="fixed-button" onClick={handleClosePage}>
-        Close Page
-      </button>
 
       <Texts savedNumber={savedNumber}/>
     </div>
