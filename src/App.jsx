@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 import Texts from './Texts'
 
@@ -7,6 +7,7 @@ function App() {
   const [inputValue, setInputValue] = useState("");
   const [showKeypad, setShowKeypad] = useState(false);
   const [savedNumber, setSavedNumber] = useState("");
+  const [isVisible, setIsVisible] = useState(false);
 
   const handleKeypadClick = (digit) => {
     setInputValue((prevValue) => prevValue + digit);
@@ -28,6 +29,31 @@ function App() {
   const handleSearchClick = () => {
     setShowKeypad(true);
   };
+
+  // Function to scroll back to the top
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
+
+  // Show or hide the button depending on the scroll position
+  useEffect(() => {
+    const toggleVisibility = () => {
+      if (window.pageYOffset > 100) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+    };
+
+    window.addEventListener('scroll', toggleVisibility);
+
+    return () => {
+      window.removeEventListener('scroll', toggleVisibility);
+    };
+  }, []);
 
   return (
     <div>
@@ -66,7 +92,14 @@ function App() {
         </div>
       )}
 
-      <Texts savedNumber={savedNumber}/>
+      {/* Back to Top Button */}
+      {isVisible && (
+        <button onClick={scrollToTop} className="back-to-top">
+          Top
+        </button>
+      )}
+
+      <Texts savedNumber={savedNumber} />
     </div>
 
   )
