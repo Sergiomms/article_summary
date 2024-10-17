@@ -12,7 +12,7 @@ header h1 {
 
 section h2 {
   color: #47d4df;
-  margin-top: 60px; /* Espaçamento grande entre o resumo e o próximo título */
+  margin-top: 50px; /* Espaçamento grande entre o resumo e o próximo título */
 }
 
 section p {
@@ -20,7 +20,7 @@ section p {
 }
 
 .summary {
-  margin-bottom: 300px; /* Espaçamento grande entre o resumo e o próximo título */
+  margin-bottom: 50px; /* Espaçamento grande entre o resumo e o próximo título */
 }
 
 strong {
