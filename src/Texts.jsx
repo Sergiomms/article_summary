@@ -254,9 +254,7 @@ treatment in first relapse. Current trials using blinatumomab frontline for high
 post-transplant will show whether efficacy is even higher in less heavily pretreated patients. Due to the distinct
 pattern of adverse events compared to high-dose conventional chemotherapy, blinatumomab could play an important
 role for patients with a risk for severe chemotherapy-associated toxicities. This systematic review discusses all published
-results for blinatumomab in children as well as all ongoing clinical trials.
-Material científico e não promocional, destinado à atualização científica, com base em dados científicos e equilibrados
-disponíveis na literatura. Esse material não apresenta nenhuma intenção comercial.`
+results for blinatumomab in children as well as all ongoing clinical trials.`
     },
   ];
 
@@ -296,8 +294,11 @@ disponíveis na literatura. Esse material não apresenta nenhuma intenção come
 
       <footer className="footer">
         <p>
-          Material destinado aos profissionais da saúde. Este material pode conter informações sobre terapias ou medicamentos ainda não
-          aprovados no Brasil. A Amgen recomenda o uso de seus medicamentos de acordo com a aprovação regulatória local.
+          Material científico e não promocional, destinado à atualização científica, com base em dados 
+          científicos e equilibrados disponíveis na literatura. Esse material não apresenta nenhuma 
+          intenção comercial. Material destinado aos profissionais da saúde. Este material pode conter 
+          informações sobre terapias ou medicamentos ainda não aprovados no Brasil. A Amgen recomenda o 
+          uso de seus medicamentos de acordo com a aprovação regulatória local.
         </p>
         <p>SC-BRA-AMG103-00637. Aprovado em outubro de 2024.</p>
       </footer>
