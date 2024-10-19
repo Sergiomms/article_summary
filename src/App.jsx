@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 import Texts from './Texts'
+import myImage from './assets/images/c.png';
 
 function App() {
 
@@ -57,6 +58,13 @@ function App() {
 
   return (
     <div>
+      <div className='image-container'>
+        <img
+          className='image'
+          src={myImage}
+          alt='image'
+        />  
+      </div>
       <div className='text'>* Type below the number of the article you want to read the summary of *</div>
       <input
         type="text"

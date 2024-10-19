@@ -236,7 +236,7 @@ short-term efficacy in a higher risk cohort of CYP patients with B-ALL in first 
 place of intensive chemotherapy for patients with relative chemo-intolerance. Furthermore, if the efficacy is sustained
 on longer follow-up, the results argue for replacing parts of post-remission intensive chemotherapy with Blinatumomab
 to reduce attendant morbidity and mortality. SS and AV are joint senior authors, AH and AM joint first authors [Formula
-presented] Disclosures: Moorman: Amgen: Honoraria.`
+presented]`
     },
     {
       id: 8,
