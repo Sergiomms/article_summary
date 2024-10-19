@@ -65,14 +65,14 @@ function App() {
           alt='image'
         />  
       </div>
-      <div className='text'>* Type below the number of the article you want to read the summary of *</div>
+      
       <input
         type="text"
         className="search-input"
         value={inputValue}
         readOnly
         onClick={handleSearchClick}
-        placeholder="Click to open keypad"
+        placeholder="Teclado Virtual"
       />
       {showKeypad && (
         <div className="container">
@@ -91,7 +91,7 @@ function App() {
                 ⌫
               </button>
               <button className="keypad-button" onClick={handleEnter}>
-                Go
+                Ir
               </button>
               <button className="keypad-button" onClick={handleCloseKeypad}>
                 X
@@ -104,7 +104,7 @@ function App() {
       {/* Back to Top Button */}
       {isVisible && (
         <button onClick={scrollToTop} className="back-to-top">
-          Top
+          Voltar ao topo
         </button>
       )}
 
