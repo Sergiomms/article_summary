@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 import Texts from './Texts'
-import myImage from './assets/images/c.png';
+import myImage from './assets/images/c.jpeg';
 
 function App() {
 
