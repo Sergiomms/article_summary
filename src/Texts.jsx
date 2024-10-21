@@ -273,7 +273,7 @@ results for blinatumomab in children as well as all ongoing clinical trials.`
   return (
     <div className="text-container">
       <header>
-        <h1>Blina Frontline Pediátrico</h1>
+        <h1>Blinatumomabe em frontline - pediátrico</h1>
       </header>
 
       {array1to60.map((item, index) => {
